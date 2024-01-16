@@ -549,6 +549,7 @@ line-height: 21px; /* 150% */
     }
     .last-footer{
         justify-content: center;
+        width: 520px;
 text-align: center;
 align-items: center;
 margin: auto;
