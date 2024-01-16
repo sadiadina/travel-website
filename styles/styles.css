@@ -10,10 +10,14 @@
   
 
   }
-
+  
   header{
     padding: 50px 240px;
-   
+    width: 1170px;
+    
+    display: block;
+    justify-content: center;
+    margin: auto;
 
   }
 
@@ -28,6 +32,8 @@
 
 }
 .logo{
+   display: inline-flex;
+  
     color: #131318;
 font-family: Mulish;
 font-size: 36px;
@@ -98,6 +104,8 @@ line-height: 26px; /* 162.5% */
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
+    margin:auto;
+
 background: rgba(255, 255, 255, 0.30);
 }
 .field{
@@ -222,6 +230,33 @@ line-height: 26px;
 padding-bottom: 24px; /* 1
 62.5% */
 }
+
+.rectangle{
+
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+
+border: none; 
+}
+.colage2{
+ display: flex;
+gap: 24px;
+width: 1170px;
+
+margin: auto;
+
+}
+.colage3{
+    width: 1170px;
+  align-items: center;
+display: flex;
+justify-content: center;
+margin: auto;
+}
 .colage{
     width: 1170px;
     position: relative;
@@ -241,6 +276,115 @@ padding-bottom: 24px; /* 1
 display: none;
     
 }
+.form{
+    display: flex;
+    width: 1170px;
+   
+    justify-content: center;
+ gap: 24px;
+ margin: 0 auto;
+ 
+  
+
+}
+
+.left-section{
+    width: 474px;
+height: 422px;
+flex-shrink: 0;
+    background: #FFF;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+    margin: auto;
+    justify-content: center;
+}
+.newsletter{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.newsplace{
+    width: 393px;
+                height: 52px;
+                flex-shrink: 0;border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05); border: none;
+}
+.newsplace::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 20px;
+}
+.discount{
+    width: 324px;
+    color: #fff;
+    text-align: center;
+height: 120px;
+transform: rotate(-19.628deg);
+padding-top: 16px;
+
+
+border-radius: 16px;
+background: #FF5400;
+    position: relative;
+    bottom: 200px;
+    left:330px ;
+     
+}
+
+
+.last-footer{
+    
+height: 502px;
+flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05);
+justify-content: center;
+text-align: center;
+align-items: center;
+margin: auto;
+}
+.footer-content{
+    padding-top: 110px;
+    margin: auto;
+}
+
+.logo1{
+    display: inline-flex;
+
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+
+}
+
+
+.footer-description{
+    color: #5A5A5D;
+    text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 769px;
+margin: auto;
+line-height: 26px; /* 162.5% */
+}
+
+.footer-icons{
+
+margin: auto;
+    
+}
+
+
 
 
 
